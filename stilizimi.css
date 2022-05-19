@@ -1,0 +1,310 @@
+@font-face {
+  font-family: montserrat;
+  src: url("./fonts/Montserrat-Light.otf");
+}
+/*Selektori universal*/
+* {
+  margin: 0;
+  font-family: montserrat;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+}
+
+/*Pjesa e pare e kontaktit dhe Ju mirepresim pra pjesa e Kokes*/
+
+.koka {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(45, 166, 247);
+  text-align: center;
+  block-size: auto;
+  position: center;
+}
+
+
+a li {
+  padding-left: 0px;
+  margin-top: 0px;
+  background-color: rgb(0, 174, 255);
+  color: blue;
+  -moz-box-align: left;
+}
+
+
+.a {
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #5b6dcd 10px;
+}
+
+
+
+.topList {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  background-color: rgb(45, 166, 247);
+  display: inline-block;
+}
+
+.topList > li {
+  float: left;
+}
+
+.topList > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.topList > li a:hover {
+  background-color: rgb(47, 146, 212);
+}
+
+/*Pjesa e Ballines,Rreth Nesh,Sherbimet,Cmimet,Kontakti pra pjesa e Navigimit*/
+
+.topList2 {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.topList2 > li {
+  float: left;
+}
+
+.topList2 > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.topList2 > li {
+  text-decoration: none;
+  padding: 30px;
+  vertical-align: middle;
+}
+
+.topList2 > li a:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+/*Pjesa e Backgroundit te faqes*/
+.koha {
+  background-image: url("./images/bg.jpg");
+  background-position: center;
+  height: 640px;
+  background-size: 100% 100%;
+  text-align-last: center;
+}
+
+#sherbimet {
+  z-index: 99999;
+  margin-bottom: 10%;
+  position: absolute;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  /* margin-left: 10%; */
+  text-align: center;
+  /* margin-right: 10%; */
+}
+
+/*Pjesa e imazhit qe eshte mes te dhenave per orarin e hapjes se konakut*/
+.grid-item {
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*Menjehere pas pjeses se backgroundit, qe eshte orari i hapjes se konakut,per pjesen e cmimeve*/
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  /* margin-left: 10%; */
+  text-align: center;
+  /* margin-right: 10%; */
+}
+
+/*Pjesa e Sherbimeve*/
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  text-align: center;
+}
+
+/*Hapsira mes pjeses se Emailit dhe Numrit te telefonit tek pjesa pak para footerit*/
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.grid-container5 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/*Per kohen e hapjes se Konakut*/
+.kolona-majtas {
+  text-align: right;
+  padding: 50px;
+}
+
+/*Tek Pjesa Mire se Vini ne Konak*/
+.kolona-djathtas {
+  text-align: right;
+  padding: 50px;
+}
+
+/*Pjesa-Merr Oferten tek Cmimet*/
+#btnShikoDetajet {
+  background-color: rgb(47, 146, 212);
+  border: none;
+  padding: 20px;
+  margin-top: 100px;
+  color: white;
+}
+
+#btnShikoDetajet:hover {
+  cursor: pointer;
+}
+
+.grid-container3 > .grid-item > img {
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+}
+
+.grid-container3 > .grid-item {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+}
+
+.kamarieret {
+}
+
+/*Sherbim,Kamarieret,Dergesa,Klientet e Kenaqur*/
+.statistika {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 40px;
+  background-color: rgb(235, 235, 235);
+}
+
+/*Artikujt*/
+.statistika > .grid-item {
+  background-color: rgb(235, 235, 235);
+}
+
+.cmimet {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(235, 235, 235);
+}
+
+.cmimet > .grid-container2 > div {
+  border: 5px solid rgb(207, 207, 207);
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+/*Merr Oferten*/
+.cmimet > .grid-container2 > div > #btnShikoDetajet {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.happyclients {
+  background-color: rgb(47, 146, 212);
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*Pjesa e Galerise se Imazheve*/
+
+.gridimages {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  align-items: stretch;
+}
+.gridimages img {
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+/*Pjesa Footerit*/
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+/*Pjesa Emailit, Addreses,Tel,Na kontaktoni */
+.footer > .grid-item {
+  background-color: #282d32;
+}
+
+/*Pjesa ne fund para footerit, dergo mesazhin*/
+#btndergomesazh {
+  background-color: rgb(47, 146, 212);
+  border: none;
+  padding: 10px; 
+  margin-top: 50px;
+  color: white;
+}
+
+
+
+
+
+/*Pjesa e Emrit tek pjesa ppara Footerit*/
+.input{ 
+   border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ccc;
+  outline:none;
+  padding: 6px;
+}
+
+
+
+
+
+
+
+
